@@ -1,0 +1,323 @@
+#topbar {
+
+				width: 1000px;
+				margin: 0 auto;
+				background-color: white;
+				height: 40px;
+
+			}
+
+			body {
+
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica, Arial, sans-serif;
+			}
+
+			#logo {
+
+				margin: 6px 8px 0 0;
+				width: 100px;
+				float: left;
+			}
+
+			.topbar-section {
+
+				float: left;
+				border-left: 1px #CCCCCC solid;
+				height: 100%
+			}
+
+			#signin-logo {
+
+				width:25px;
+				margin: 11.5px 15px;
+				float: left;
+
+			}
+
+			#signin-div {
+
+				float: left;
+			}
+
+			#signin-text {
+
+				font-weight: bold;
+				font-size: 90%;
+				position:relative;
+				top:14px;
+				padding-right: 50px;
+			}
+
+			#restofbar-div {
+
+				float: left;
+			}
+
+			.restofbar-text {
+
+				font-weight: bold;
+				font-size: 90%;
+				padding: 14px 15px 0 15px;
+				height: 25.5px;
+
+			}
+
+			#more-arrow {
+
+				width:11.5px;
+				margin-left: 20px;
+			}
+
+			#search-box {
+
+				width: 155.35px;
+				background-color: #E4E4E4;
+				border: none;
+				font-weight: bold;
+				font-size: 14px;
+				padding: 5px;
+				margin: 7px 0 7px 7px;
+				float: left;
+			}
+
+			#search-icon {
+
+				height: 27px;
+				margin-top: 7px;
+				float: left;
+			}
+
+			.clear{
+
+				margin: 0;
+				padding: 0;
+				clear: both;
+			}
+
+			#menu-bar-container{
+
+				border-top: 1px #CCCCCC solid;
+				margin: 0;
+				background-color: #BB1919;
+				width: 100%;
+				height: 65px;
+			}
+
+			#menu-bar {
+
+				width: 1000px;
+				margin: 0 auto;
+			}
+
+			h1{
+
+				padding-top: 10px;
+				margin: 0;
+				color: white;
+				font-size: 40px;
+				font-weight: normal;
+			}
+
+			#sub-menu-bar-container {
+
+				float:left;
+				background-color: #A91717;
+				width: 100%;
+				height: 40px;
+				margin: 0px;
+			}
+
+			#sub-menu-bar {
+
+				width: 1000px;
+				margin: 0 auto;
+				height: 30px;
+			}
+
+			#sub-menu-bar a{
+
+				float:left;
+				color: white;
+				text-decoration: none;
+				padding: 0 10px;
+				border-right: 1px solid #BB4545;
+				font-size: 16px;
+				position: relative;
+				top: 12px;
+				left: -9.5px;
+			}
+
+			#sub-menu-bar a:hover {
+
+				text-decoration: underline;
+			}
+
+			.no-border {
+
+				border: none !important;
+			}
+
+			#down-arrow {
+
+				float: left;
+				width:11.5px;
+				position: relative;
+				top: 17.5px;
+				left: -15.5px;
+			}
+
+			#page-container {
+
+				width: 1000px;
+				margin: 0 auto;
+
+			}
+
+			#main-article {
+
+
+			}
+
+			h2 {
+
+				font-weight: normal;
+				position: relative;
+				top: -5px;
+				font-size: 20px;
+				border-bottom: 3px solid #A91717;
+				width: 101px;
+			}
+
+			h3 a {
+
+				color: black;
+				font-size: 31px;
+				text-decoration: none;
+			}
+
+			h3 a:hover {
+
+				color: #1167A8;
+			}
+
+			#article-summary {
+
+				color: #5A5A5A;
+				font-size: 14px;
+				width: 245px;
+				float: left;
+				position: relative;
+				top: -12px;
+			}
+
+			.clock {
+
+				height: 18px;
+				position: relative;
+				top: 3px;
+			}
+
+			.topic-link {
+
+				font-size: 14px;
+				color: #A91717;
+				text-decoration: none;
+				border-left: 1px solid #CCCCCC;
+				padding-left: 8px;
+			}
+
+			#article-summary a:hover {
+
+				color: #1167A8;
+			}
+
+			.date {
+
+				font-size: 14px;
+				padding-right: 8px;
+				color: #5A5A5A;
+			}
+
+			#article-container {
+
+				float: left;
+				width: 660px;
+				border-right: 1px solid #CCCCCC;
+				padding-right: 0px;
+			}
+
+			#main-article-image {
+
+				float: left;
+			}
+
+			#article-hr {
+
+				border-top: 1px solid #A91717;
+				width: 40px;
+				position: relative;
+				top: -3px;
+			}
+
+			.article-link {
+
+				color: black;
+				text-decoration: none;
+			}
+
+			#watch-listen {
+
+				position: relative;
+				top: -34px;
+				left: 9px;
+				width: 330px;
+				float: right;
+			}
+
+			h4 {
+
+				font-weight: normal;
+				font-size: 25px;
+			}
+
+			.article-side-image {
+
+				float: left;
+				margin-right: 7px;
+
+			}
+
+			.watch-listen-links{
+
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			.watch-listen-links:hover {
+
+				color: #1167A8;
+			}
+
+			.side-article {
+
+				float: right;
+				width: 200px;
+				position: relative;
+				top: -17px;
+			}
+
+			.no-boder {
+
+				border-left: none;
+				padding: 0;
+			}
+
+			.border-right {
+
+				border-right: 1px solid #CCCCCC;
+				padding-right: 8px;
+			}
