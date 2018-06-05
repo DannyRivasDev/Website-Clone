@@ -1,2 +1,2 @@
 # Website-Clone
-A clone of a page of the technology section of the BBC website.
+A clone of a page in the technology section of the BBC website.
